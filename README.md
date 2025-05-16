@@ -84,8 +84,8 @@ ALL('public cc_detail'),
 -  Built visuals using card KPIs, bar charts, donut charts, and line graphs.
 - Used slicers for time, card category, region, and gender for dynamic filtering.
 	- Designed two key pages:
-	       - Customer Demographics View
-	       - Transaction & Revenue View
+	        - Customer Demographics View
+	        - Transaction & Revenue View
 
 ## View Dashboard
 <img width="1071" alt="Screenshot 2025-05-16 at 20 18 47" src="https://github.com/user-attachments/assets/f574950a-5fe8-4941-af22-17a1598e4a9c" />
