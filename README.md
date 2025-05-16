@@ -58,6 +58,10 @@ To develop a comprehensive credit card weekly dashboard that provides real-time 
 	      - Customer Demographics View
 	      - Transaction & Revenue View
 
+## View Dashboard
+<img width="1071" alt="Screenshot 2025-05-16 at 20 18 47" src="https://github.com/user-attachments/assets/f574950a-5fe8-4941-af22-17a1598e4a9c" />
+<img width="1071" alt="Screenshot 2025-05-16 at 20 19 13" src="https://github.com/user-attachments/assets/bc2d2bac-9e00-4c8d-88b5-a247bf535328" />
+
 
 
 
