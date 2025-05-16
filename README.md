@@ -39,6 +39,7 @@ To develop a comprehensive credit card weekly dashboard that provides real-time 
    - Quarterly Revenue Trend : Q1 to Q4 comparison for seasonality
  
 ## Dashboard Interaction
+- <a href="https://github.com/yug0537/Credit_Card_Financial_Dashboard-Power-BI-/blob/main/Credit_Card_Report.pbix"Dashboard"<a/>
 
 
 
