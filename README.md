@@ -42,8 +42,22 @@ To develop a comprehensive credit card weekly dashboard that provides real-time 
 ## Dashboard Interaction
 - <a href="https://github.com/yug0537/Credit_Card_Financial_Dashboard-Power-BI-/blob/main/Credit_Card_Report.pbix">Dashboard<a/>
 
-## Process
-- 
+## Project Workflow
+- Data Ingestion via SQL:
+   - 	Imported credit_card.csv and customer.csv into MySQL using LOAD DATA INFILE and created two tables: cc_detail and cust_detail.
+   - 	Cleaned and formatted data (e.g., converting dates to YYYY-MM-DD, handling nulls).
+- Data Modeling in SQL:
+   - Created structured schemas for both tables.
+- Connecting SQL to Power BI:
+   - 	Established a direct connection from Power BI to MySQL database.
+	-  Imported tables without merging in Power BI (relationships handled via SQL if needed).
+- Dashboard Development in Power BI:
+   -	Built visuals using card KPIs, bar charts, donut charts, and line graphs.
+	-	Used slicers for time, card category, region, and gender for dynamic filtering.
+	-	Designed two key pages:
+	      - Customer Demographics View
+	      - Transaction & Revenue View
+
 
 
 
