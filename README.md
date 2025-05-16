@@ -81,7 +81,7 @@ SUM('ccdb cc_detail'[Revenue]),
 FILTER(
 ALL('public cc_detail'),
 'ccdb cc_detail'[week_num2] = MAX('ccdb cc_detail'[week_num2])-1))
--  Built visuals using card KPIs, bar charts, donut charts, and line graphs.
+-  Built visuals using card KPIs, bar charts and line graphs.
 - Used slicers for time, card category, region, and gender for dynamic filtering.
 - Designed two key pages:
 	- Customer Demographics View
