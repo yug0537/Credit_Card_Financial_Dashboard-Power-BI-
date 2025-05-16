@@ -16,4 +16,6 @@ To develop a comprehensive credit card weekly dashboard that provides real-time 
 - <a href="https://github.com/yug0537/Credit_Card_Financial_Dashboard-Power-BI-/blob/main/customer.csv">Customer Raw<a/>
 
 ## KPIs
+- Core Financial KPIs:
+ - Total Revenue : Sum of all customer spending across all card types : ₹55M
 
