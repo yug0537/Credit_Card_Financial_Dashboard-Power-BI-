@@ -52,9 +52,38 @@ To develop a comprehensive credit card weekly dashboard that provides real-time 
    - 	Established a direct connection from Power BI to MySQL database.
 	-  Imported tables without merging in Power BI (relationships handled via SQL if needed).
 - Dashboard Development in Power BI:
-   -	Built visuals using card KPIs, bar charts, donut charts, and line graphs.
-	-	Used slicers for time, card category, region, and gender for dynamic filtering.
-	-	Designed two key pages:
+   - Dax Queries Performed:
+       - Age_Group = SWITCH(
+TRUE(),
+'ccdb cust_detail'[customer_age] < 30, "20-30",
+'ccdb cust_detail'[customer_age] >= 30 && 'ccdb cust_detail'[customer_age] < 40, "30-40",
+'ccdb cust_detail'[customer_age] >= 40 && 'ccdb cust_detail'[customer_age] < 50, "40-50",
+'ccdb cust_detail'[customer_age] >= 50 && 'ccdb cust_detail'[customer_age] < 60, "50-60",
+'ccdb cust_detail'[customer_age] >= 60, "60+",
+"unknown")
+       - IncomeGroup = SWITCH(
+TRUE(),
+'ccdb cust_detail'[income] < 35000, "Low",
+'ccdb cust_detail'[income] >= 35000 && 'ccdb cust_detail'[income] <70000, "Med",
+'ccdb cust_detail'[income] >= 70000, "High",
+"unknown")
+     - week_num2 = WEEKNUM('ccdb cc_detail'[week_start_date])
+     - Revenue = 'ccdb cc_detail'[annual_fees] + 'ccdb cc_detail'[total_trans_amt] + 'ccdb cc_detail'[interest_earned]
+      
+     - Current_week_Reveneue = CALCULATE(
+SUM('ccdb cc_detail'[Revenue]),
+FILTER(
+ALL('ccdb cc_detail'),
+'ccdb cc_detail'[week_num2] = MAX('ccdb cc_detail'[week_num2])))
+
+     - Previous_week_Reveneue = CALCULATE(
+SUM('ccdb cc_detail'[Revenue]),
+FILTER(
+ALL('public cc_detail'),
+'ccdb cc_detail'[week_num2] = MAX('ccdb cc_detail'[week_num2])-1))
+-  Built visuals using card KPIs, bar charts, donut charts, and line graphs.
+	- Used slicers for time, card category, region, and gender for dynamic filtering.
+	- Designed two key pages:
 	      - Customer Demographics View
 	      - Transaction & Revenue View
 
