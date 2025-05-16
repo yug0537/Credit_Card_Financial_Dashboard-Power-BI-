@@ -17,5 +17,5 @@ To develop a comprehensive credit card weekly dashboard that provides real-time 
 
 ## KPIs
 - Core Financial KPIs:
- - Total Revenue : Sum of all customer spending across all card types : ₹55M
+  - Total Revenue : Sum of all customer spending across all card types : ₹55M
 
