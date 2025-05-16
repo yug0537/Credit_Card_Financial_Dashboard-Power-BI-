@@ -37,6 +37,9 @@ To develop a comprehensive credit card weekly dashboard that provides real-time 
      
 - Time-Based KPIs:
    - Quarterly Revenue Trend : Q1 to Q4 comparison for seasonality
+ 
+## Dashboard Interaction
+
 
 
 
