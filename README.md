@@ -71,6 +71,12 @@ To develop a comprehensive credit card weekly dashboard that provides real-time 
 - Revenue is distributed evenly across all four quarters, with Q3 slightly leading in transactions.
 - States like CA, NY, and TX emerged as top revenue contributors.
 
+## Conclusion
+- This project successfully demonstrates how to build a scalable and professional BI solution by:
+- Leveraging SQL for robust data handling and backend logic
+- Using Power BI to deliver visually rich and insight-driven reports
+- It showcases how organizations can use a SQL-to-Power BI pipeline to transform raw financial and customer data into powerful dashboards that guide    strategic business decisions, product targeting, and customer engagement.
+
 
 
 
