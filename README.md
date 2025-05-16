@@ -6,3 +6,4 @@ To develop a comprehensive credit card weekly dashboard that provides real-time 
 
 ## Dataset Used
 - <a href="https://github.com/yug0537/Credit_Card_Financial_Dashboard-Power-BI-/blob/main/credit_card.csv">Credit Card Raw<a/>
+- <a href="https://github.com/yug0537/Credit_Card_Financial_Dashboard-Power-BI-/blob/main/customer.csv">Customer Raw<a/>
