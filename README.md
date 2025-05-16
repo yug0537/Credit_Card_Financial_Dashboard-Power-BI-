@@ -5,3 +5,4 @@ The goal of this project was to analyze credit card transactions and customer de
 To develop a comprehensive credit card weekly dashboard that provides real-time insights into key performance metrics and trends,enabling stakeholders to monitor and analyze credit card operations effectively.
 
 ## Dataset Used
+- <a href="https://github.com/yug0537/Credit_Card_Financial_Dashboard-Power-BI-/blob/main/credit_card.csv">Credit Card Raw<a/>
