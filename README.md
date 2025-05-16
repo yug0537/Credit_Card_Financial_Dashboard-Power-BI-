@@ -62,6 +62,15 @@ To develop a comprehensive credit card weekly dashboard that provides real-time 
 <img width="1071" alt="Screenshot 2025-05-16 at 20 18 47" src="https://github.com/user-attachments/assets/f574950a-5fe8-4941-af22-17a1598e4a9c" />
 <img width="1071" alt="Screenshot 2025-05-16 at 20 19 13" src="https://github.com/user-attachments/assets/bc2d2bac-9e00-4c8d-88b5-a247bf535328" />
 
+## Key Insights
+- Total Revenue: ₹55M | Transaction Amount: ₹45M | Transaction Count: 656K
+- Blue Card customers contributed over ₹46M in revenue—dominating the portfolio.
+- Businessmen and white-collar workers generated the highest income and interest.
+- Majority of customers fall under medium and low salary groups, with spending concentrated in fuel, groceries, and bills.
+- Age groups 30–40 and 60+ are the most financially active.
+- Revenue is distributed evenly across all four quarters, with Q3 slightly leading in transactions.
+- States like CA, NY, and TX emerged as top revenue contributors.
+
 
 
 
