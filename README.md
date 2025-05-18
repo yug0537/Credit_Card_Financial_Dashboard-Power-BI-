@@ -5,11 +5,11 @@ To analyze and visualize credit card transaction behavior and customer demograph
 To develop a comprehensive credit card weekly dashboard that provides real-time insights into key performance metrics and trends,enabling stakeholders to monitor and analyze credit card operations effectively.
 
 ## Tools & Technology Used
-- SQL (MySQL) for structured data storage, table creation, and data transformation
+- SQL (MySQL) for importing, structured data storage, and data transformation
 - Power BI Desktop for data modeling and dashboard development
 - Power Query Editor for data cleaning and transformation
 - DAX (Data Analysis Expressions) for calculated measures and KPIs
-- Data Source: credit_card and customer tables created from CSV imports
+- Data Source: credit_card and customer tables created from SQL imports
 
 
 ## Dataset Used
@@ -101,10 +101,10 @@ ALL('public cc_detail'),
 - States like CA, NY, and TX emerged as top revenue contributors.
 
 ## Conclusion
-- This project successfully demonstrates how to build a scalable and professional BI solution by:
-- Leveraging SQL for robust data handling and backend logic
+- This project successfully demonstrates how to build a scalable and professional BI solution.
+- Leveraging SQL for Importing data and robust data handling
 - Using Power BI to deliver visually rich and insight-driven reports
-- It showcases how organizations can use a SQL-to-Power BI pipeline to transform raw financial and customer data into powerful dashboards that guide    strategic business decisions, product targeting, and customer engagement.
+- It showcases how organizations can use a SQL-to-Power BI pipeline to transform raw financial and customer data into powerful dashboards that guide strategic business decisions, product targeting, and customer engagement.
 
 
 
